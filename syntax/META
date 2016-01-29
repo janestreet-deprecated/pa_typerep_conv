@@ -1,4 +1,13 @@
 # OASIS_START
+# DO NOT EDIT (digest: e7204efc63c185471e335fea6d62e3d2)
+version = "113.00.01"
+description = "Syntax extension for the \"typerep\" converter"
+requires = "camlp4 type_conv"
+archive(syntax, preprocessor) = "pa_typerep_conv.cma"
+archive(syntax, toploop) = "pa_typerep_conv.cma"
+archive(syntax, preprocessor, native) = "pa_typerep_conv.cmxa"
+archive(syntax, preprocessor, native, plugin) = "pa_typerep_conv.cmxs"
+exists_if = "pa_typerep_conv.cma"
 # OASIS_STOP
 package "syntax" (
   description = "Alias for pa_typerep_conv"
