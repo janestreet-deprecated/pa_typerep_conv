@@ -1,0 +1,7 @@
+# OASIS_START
+# OASIS_STOP
+package "syntax" (
+  description = "Alias for pa_typerep_conv"
+  requires    = "pa_typerep_conv"
+  archive     = "-ignore dumy"
+)
